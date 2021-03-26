@@ -1,0 +1,152 @@
+/*BEGIN STARTER CSS - DO NOT CHANGE*/
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+  background-color: white;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+    
+font-family: 'Open Sans', sans-serifline height;
+    
+}
+
+h1{
+  font-size: 40px;
+  line-height: 1;
+  padding: 50px 0;
+  text-align: center;
+}
+
+h2{
+  font-size: 11px;
+  line-height: 1.5;
+  margin: 10px; 
+}
+
+nav li{
+  display:inline;
+  padding-right:20px;
+
+}
+p{
+    margin: 10px; 
+}
+
+
+
+nav{
+  background-color: black;
+  padding: 25px 0; 
+  text-align: center;
+  }
+
+ul#navigation .focus {
+  text-decoration: underline;
+} 
+
+#navigation a.active-page{
+  text-decoration: underline;
+}
+
+
+footer{
+  background-color: black;
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+}
+
+header p{
+  color: white;
+  font-size: 17px;
+  padding: 0 50px;
+  text-align: center;
+}
+/*END STARTER CSS - DO NO CHANGE*/
+
+
+/*Req 1*/
+nav a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  
+
+}
+/*Req 2*/
+/*Write selector/rule property to add an underline when
+links in the navigation are in the hover or focus state.*/
+a:hover {
+    text-decoration: underline;}
+
+/*Req 3a*/
+.skip a{
+  background: white;
+  left: 0;
+  padding: 7px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+  position: absolute;
+  top: -50px;
+
+  /*Your code here*/
+}
+/*Req 3b*/
+/*Write selector/rule property to position the skip class element*/
+.skip a:focus{ 
+ top: 10px;}
+
+/*Req 4*/
+/*Write selector/rule property to style all elements when in focus*/
+*:focus{
+    border-bottom: 2px dashed;
+    border-top: 2px dashed; 
+}
+ 
+
+header{
+  background-attachment: fixed; /* Parallax effect */     
+  background-position: center;  /* Parallax effect */
+  background-repeat: no-repeat; /* Parallax effect */
+  background-size: cover;       /* Parallax effect */
+  color: white;
+  height: 400px;                /* Parallax effect */
+  margin-bottom:25px;
+  background-image: url('/images/back.jpg');   
+  /*Req 6a*/
+  /*Set margin */
+
+    
+  /*Req 6b*/
+  /*Set background-image to header.jpg */
+ 
+
+}
+  
+.wrapper {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 10%;
+     
+}
+div>img{
+max-height: 150px;
+    margin: 10px;
+    
+}
+.chart>img{
+    display: grid;
+    justify-content: center;
+    max-height: 200px;
+    width
+    
+    grid-template-columns: 1fr 1fr;
+    column-span: all;
+    
+}
+ 
+ 
